@@ -21,5 +21,9 @@
   "homepage": "https://github.com/afisher/ash.fish#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^1.0.0",
+    "glob": "^7.2.0"
   }
 }

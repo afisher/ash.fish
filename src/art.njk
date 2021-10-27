@@ -1,0 +1,12 @@
+---
+title: Art
+layout: layout-base.njk
+---
+
+{% if art | length == 0 %}
+<p>Nothing here yet :)</p>
+{% endif %}
+
+{% for img in art | reverse %}
+<img src="{{ img.url }}" width="{{ img.width }}" height="{{ img.height }}" />
+{% endfor %}

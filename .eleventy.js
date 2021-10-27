@@ -1,9 +1,9 @@
 module.exports = (config) => {
-  config.addPassthroughCopy('**/*.jpg');
+  config.addPassthroughCopy("src/**/*.jpg");
   return {
     dir: {
-      input: 'src',
-      output: '_site',
-    }
-  }
+      input: "src",
+      output: "_site",
+    },
+  };
 };
