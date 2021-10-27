@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
   <title>{{ title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link
@@ -7,7 +7,7 @@
     href="https://unpkg.com/tachyons/css/tachyons.min.css"
   />
   <link rel="stylesheet" href="/static/styles.css" />
-  <body class="bg-near-black avenir moon-gray lh-copy">
+  <body class="bg-near-black avenir moon-gray lh-copy flex flex-column h-100">
     <div class="bg-dark-purple bb b--dark-gray">
       <nav class="f4 mw6 pa3 center">
         <a href="/" class="link dim light-gray mh1">Home</a>
@@ -16,11 +16,9 @@
         <a href="/resume" class="link dim light-gray mh1">Resume</a>
       </nav>
     </div>
-    <div class="center mw6">
+    <main class="center mw6 flex-grow-1">
       {{ content | safe }}
-    </div>
-    <footer class="absolute bottom-0 left-0 right-0 pa3 tc bt b--dark-gray">
-      &copy; 2021 Ashley Fisher
-    </footer>
+    </main>
+    <footer class="pa3 tc bt b--dark-gray">&copy; 2021 Ashley Fisher</footer>
   </body>
 </html>
