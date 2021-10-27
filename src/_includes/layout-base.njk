@@ -7,29 +7,19 @@
     href="https://unpkg.com/tachyons/css/tachyons.min.css"
   />
   <link rel="stylesheet" href="/static/styles.css" />
-  <body class="bg-near-black avenir moon-gray">
-    <nav class="pa3 tc bg-dark-purple bb b--dark-gray">
-      <a href="/" class="link dim underline light-gray mh1">Home</a>
-      <a href="/blog" class="link dim underline light-gray mh1">Blog</a>
-      <a href="/art" class="link dim underline light-gray mh1">Art</a>
-      <a href="/resume" class="link dim underline light-gray mh1">Resume</a>
-    </nav>
+  <body class="bg-near-black avenir moon-gray lh-copy">
+    <div class="bg-dark-purple bb b--dark-gray">
+      <nav class="f4 mw6 pa3 center">
+        <a href="/" class="link dim light-gray mh1">Home</a>
+        <a href="/blog" class="link dim light-gray mh1">Blog</a>
+        <a href="/art" class="link dim light-gray mh1">Art</a>
+        <a href="/resume" class="link dim light-gray mh1">Resume</a>
+      </nav>
+    </div>
     <div class="center mw6">
       {{ content | safe }}
     </div>
-    <footer
-      class="
-        absolute
-        bottom-0
-        left-0
-        right-0
-        pa3
-        tc
-        bg-dark-purple
-        bt
-        b--dark-gray
-      "
-    >
+    <footer class="absolute bottom-0 left-0 right-0 pa3 tc bt b--dark-gray">
       &copy; 2021 Ashley Fisher
     </footer>
   </body>
