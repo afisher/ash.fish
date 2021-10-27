@@ -1,5 +1,5 @@
 module.exports = (config) => {
-  config.addPassthroughCopy("src/**/*.jpg");
+  config.addPassthroughCopy("src/static");
   return {
     dir: {
       input: "src",
