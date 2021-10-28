@@ -1,0 +1,29 @@
+{
+  "name": "ash.fish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afisher/ash.fish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afisher/ash.fish/issues"
+  },
+  "homepage": "https://github.com/afisher/ash.fish#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "^1.0.0",
+    "glob": "^7.2.0"
+  }
+}

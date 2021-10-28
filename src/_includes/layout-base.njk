@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>{{ title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/tachyons/css/tachyons.min.css"
+  />
+  <link rel="stylesheet" href="/static/styles.css" />
+  <body
+    class="bg-near-black avenir moon-gray lh-copy flex flex-column min-vh-100"
+  >
+    <div class="bg-dark-purple bb b--dark-gray">
+      <nav class="f4 mw6 pa3 center">
+        <a href="/" class="link dim light-gray mh1">Home</a>
+        <a href="/blog" class="link dim light-gray mh1">Blog</a>
+        <a href="/art" class="link dim light-gray mh1">Art</a>
+        <a href="/resume" class="link dim light-gray mh1">Resume</a>
+      </nav>
+    </div>
+    <main class="center mw6 flex-auto">
+      {{ content | safe }}
+    </main>
+    <footer class="pa3 tc bt b--dark-gray">&copy; 2021 Ashley Fisher</footer>
+  </body>
+</html>
