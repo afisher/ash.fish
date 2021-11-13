@@ -11,7 +11,7 @@ An experienced software engineer with a love for frontend. Pragmatic, ambitious,
 
 <hr class="print-only" />
 
-<div class="flex f4">
+<div class="flex f4" id="resume-body">
 <div class="w-70 pr5">
 
 ## Experience
