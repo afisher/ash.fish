@@ -5,51 +5,50 @@ layout: layout-base.njk
 
 # Ashley Fisher
 
+<div class="f4">
 An experienced software engineer with a love for frontend. Pragmatic, ambitious, communicative, and fun to work with.
+</div>
 
-<div class="flex">
-<div class="w-70 mr2">
+<hr class="print-only" />
+
+<div class="flex f4">
+<div class="w-70 pr5">
 
 ## Experience
 
-### **Crisp** (Remote)
+### Crisp (Remote)
 
-_Senior Frontend Software Engineer_ OCT 2020 - PRESENT
+_Senior Frontend Software Engineer_
+<span class="f6 silver">OCT 2020 - PRESENT</span>
 
-### **Bright.md** (Portland, OR)
+### Bright.md (Portland, OR)
 
 _Senior Software Engineer_
-DEC 2018 - SEP 2020
-
-- Served as technical lead for many product features from conception to production
-- Mentored other engineers via "lunch and learn" talks, pair programming, and code reviews
-
+<span class="f6 silver">DEC 2018 - SEP 2020</span><br/>
 _Full Stack Developer_
-JAN 2014 - DEC 2018
+<span class="f6 silver">JAN 2014 - DEC 2018</span>
 
 - Co-wrote the initial product web application for an early-stage healthcare startup
+- Served as technical lead for many product features from conception to production
+- Mentored other engineers via "lunch and learn" talks, pair programming, and code reviews
 - Implemented features across the whole stack
-- Wrote unit tests, maintaining 100% statement coverage
-- Wrote automated browser tests
-- Managed direct reports while continuing to contribute code
+- Wrote tests, maintaining 100% statement coverage
 
-### **Self-employed at Possible Whale** (Portland, OR)
+### Self-employed at Possible Whale (Portland, OR)
 
 _Game Developer_
-MAY 2013 - NOV 2013
+<span class="f6 silver">MAY 2013 - NOV 2013</span>
 
 - Developed a mobile game in JavaScript
 
-### **Decipher Inc** (Portland, OR)
+### Decipher Inc (Portland, OR)
 
 _Frontend Developer_
-NOV 2012 - MAY 2013
+<span class="f6 silver">NOV 2012 - MAY 2013</span><br/>
+_Test Engineer_
+<span class="f6 silver">AUG 2012 - NOV 2012</span>
 
 - Developed web applications in AngularJS
-
-_Test Engineer_
-AUG 2012 - NOV 2012
-
 - Wrote test automation scripts in Python using Selenium
 
 ## Education
@@ -57,7 +56,7 @@ AUG 2012 - NOV 2012
 ### B.A Computer Science (Cum Laude)
 
 Willamette University, Salem, OR
-AUG 2008 - MAY 2012
+<span class="f6 silver">AUG 2008 - MAY 2012</span>
 
 </div>
 
@@ -69,21 +68,21 @@ AUG 2008 - MAY 2012
 
 **Backend**: Python, pytest, Twisted web, klein (or flask), mongoengine
 
-**Misc**: git, TravisCI
+**Misc**: git, TravisCI, Figma
 
 ## Projects
 
 **Code For Good (Summer 2018)**
 
-Implemented a point-of-sale system in React for local nonprofit Sisters of the Road
+Implemented a <a href="https://github.com/codeforgoodconf/sisters-of-the-road-admin" class="link light-purple">point-of-sale system in React</a> for local nonprofit Sisters of the Road
 
 **PIGSquad Summer Slow Jams (Summer 2016)**
 
-Developed a non-linear adventure game in Twine as part of a team in a week-long game jam
+Developed a <a href="https://zivlok.itch.io/beegin" class="link light-purple">non-linear adventure game in Twine</a> as part of a team in a week-long game jam
 
 **Algebra Card Clutter (Summer 2012)**
 
-Co-developed an edutainment game to help middle school kids learn algebra
+Co-developed an <a href="https://appadvice.com/app/algebra-card-clutter/549330499" class="link light-purple">edutainment game</a> to help middle school kids learn algebra
 
 </div>
 </div>

@@ -10,17 +10,19 @@
   <body
     class="bg-near-black avenir moon-gray lh-copy flex flex-column min-vh-100"
   >
-    <div class="bg-dark-purple bb b--dark-gray">
-      <nav class="f4 mw7 pa3 center">
-        <a href="/" class="link dim light-gray mh1">Home</a>
-        <a href="/blog" class="link dim light-gray mh1">Blog</a>
-        <a href="/art" class="link dim light-gray mh1">Art</a>
-        <a href="/resume" class="link dim light-gray mh1">Resume</a>
+    <div class="bg-dark-purple bb b--dark-gray screen-only">
+      <nav class="f4 mw7 pv3 center">
+        <a href="/" class="link dim light-gray mr3">Home</a>
+        <a href="/blog" class="link dim light-gray mr3">Blog</a>
+        <a href="/art" class="link dim light-gray mr3">Art</a>
+        <a href="/resume" class="link dim light-gray">Resume</a>
       </nav>
     </div>
-    <main class="center mw7 flex-auto">
+    <main class="center mw7 flex-auto" id="main-content">
       {{ content | safe }}
     </main>
-    <footer class="pa3 tc bt b--dark-gray">&copy; 2021 Ashley Fisher</footer>
+    <footer class="pa3 tc bt b--dark-gray screen-only">
+      &copy; 2021 Ashley Fisher
+    </footer>
   </body>
 </html>
