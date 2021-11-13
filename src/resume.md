@@ -28,7 +28,7 @@ _Senior Software Engineer_
 _Full Stack Developer_
 <span class="f6 silver">JAN 2014 - DEC 2018</span>
 
-- Co-wrote the initial product web application for an early-stage healthcare startup
+- Co-wrote the initial web application product for an early-stage healthcare startup
 - Served as technical lead for many product features from conception to production
 - Mentored other engineers via "lunch and learn" talks, pair programming, and code reviews
 - Implemented features across the whole stack
@@ -64,9 +64,9 @@ Willamette University, Salem, OR
 
 ## Skills
 
-**Frontend**: ES6, TypeScript, React, webpack, Jest, react-testing-library, Enzyme, Cypress, GraphQL, HTML, CSS
+**Frontend**: TypeScript, React, webpack, Jest, react-testing-library, Enzyme, Cypress, Apollo GraphQL, HTML, CSS
 
-**Backend**: Python, pytest, Twisted web, klein (or flask), mongoengine
+**Backend**: Python, pytest, Twisted web, klein (or flask), MongoDB
 
 **Misc**: git, TravisCI, Figma
 
