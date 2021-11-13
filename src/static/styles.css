@@ -1,5 +1,5 @@
 .bg-dark-purple {
-  background: #2b0847
+  background: hsl(272, 97%, 13%)
     linear-gradient(to right, hsl(272, 97%, 13%), hsl(250, 85%, 40%));
 }
 
