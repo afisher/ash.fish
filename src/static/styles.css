@@ -1,5 +1,6 @@
 .bg-dark-purple {
-  background-color: #2b0847;
+  background: #2b0847
+    linear-gradient(to right, hsl(272, 97%, 13%), hsl(250, 85%, 40%));
 }
 
 ul {
@@ -9,6 +10,17 @@ ul {
 @media screen {
   .print-only {
     display: none;
+  }
+
+  @media (max-width: 600px) {
+    #resume-body {
+      display: block;
+    }
+
+    #resume-body > div {
+      width: 100%;
+      padding-right: 0;
+    }
   }
 }
 
@@ -28,5 +40,9 @@ ul {
   #main-content {
     max-width: 100%;
     padding: 4rem;
+  }
+
+  .underline {
+    text-decoration: none;
   }
 }

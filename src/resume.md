@@ -74,15 +74,15 @@ Willamette University, Salem, OR
 
 **Code For Good (Summer 2018)**
 
-Implemented a <a href="https://github.com/codeforgoodconf/sisters-of-the-road-admin" class="link light-purple">point-of-sale system in React</a> for local nonprofit Sisters of the Road
+Implemented a <a href="https://github.com/codeforgoodconf/sisters-of-the-road-admin" class="link underline white">point-of-sale system in React</a> for local nonprofit Sisters of the Road
 
 **PIGSquad Summer Slow Jams (Summer 2016)**
 
-Developed a <a href="https://zivlok.itch.io/beegin" class="link light-purple">non-linear adventure game in Twine</a> as part of a team in a week-long game jam
+Developed a <a href="https://zivlok.itch.io/beegin" class="link underline white">non-linear adventure game in Twine</a> as part of a team in a week-long game jam
 
 **Algebra Card Clutter (Summer 2012)**
 
-Co-developed an <a href="https://appadvice.com/app/algebra-card-clutter/549330499" class="link light-purple">edutainment game</a> to help middle school kids learn algebra
+Co-developed an <a href="https://appadvice.com/app/algebra-card-clutter/549330499" class="link underline white">edutainment game</a> to help middle school kids learn algebra
 
 </div>
 </div>
