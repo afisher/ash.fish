@@ -6,7 +6,7 @@ layout: layout-base.njk
 # Ashley Fisher
 
 <div class="f4">
-An experienced software engineer with a love for frontend. Pragmatic, ambitious, communicative, and fun to work with.
+A software engineer of 10+ years with a love for frontend. Pragmatic, communicative, and fun to work with.
 </div>
 
 <hr class="print-only" />
@@ -21,6 +21,11 @@ An experienced software engineer with a love for frontend. Pragmatic, ambitious,
 _Senior Frontend Software Engineer_
 <span class="f6 silver">OCT 2020 - PRESENT</span>
 
+- Led adoption of various frontend best practices at an early-stage startup
+- Served as technical lead for multiple high-profile customer-facing product features
+- Became a go-to resource for frontend questions across the organization
+- Leveled up my peers via talks and code reviews
+
 ### Bright.md (Portland, OR)
 
 _Senior Software Engineer_
@@ -28,11 +33,10 @@ _Senior Software Engineer_
 _Full Stack Developer_
 <span class="f6 silver">JAN 2014 - DEC 2018</span>
 
-- Co-wrote the initial web application product for an early-stage healthcare startup
+- Co-wrote the initial web application product for an early-stage healthcare startup as employee #2
 - Served as technical lead for many product features from conception to production
-- Mentored other engineers via "lunch and learn" talks, pair programming, and code reviews
-- Implemented features across the whole stack
-- Wrote tests, maintaining 100% statement coverage
+- Mentored other engineers via talks, pair programming, and code reviews
+<!-- - Implemented features across the whole stack -->
 
 ### Self-employed at Possible Whale (Portland, OR)
 
@@ -64,9 +68,9 @@ Willamette University, Salem, OR
 
 ## Skills
 
-**Frontend**: TypeScript, React, webpack, Jest, react-testing-library, Enzyme, Cypress, Apollo GraphQL, HTML, CSS
+**Frontend**: TypeScript, React, webpack, Jest, react-testing-library, Cypress, Apollo GraphQL, HTML, CSS, accessibility (a11y)
 
-**Backend**: Python, pytest, Twisted web, klein (or flask), MongoDB
+**Backend**: Python, pytest, Twisted web, klein, MongoDB
 
 **Misc**: git, TravisCI, Figma
 
