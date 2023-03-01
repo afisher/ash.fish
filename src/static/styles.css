@@ -1,15 +1,23 @@
 .bg-dark-purple {
   background: hsl(272, 97%, 13%)
-    linear-gradient(to right, hsl(272, 97%, 13%), hsl(250, 85%, 40%));
+    linear-gradient(to right, hsl(272, 97%, 13%), hsl(250, 87%, 29%));
 }
 
 ul {
   padding-left: 1.25rem;
 }
 
+.job-header {
+  margin-bottom: 0;
+}
+
 @media screen {
   .print-only {
     display: none;
+  }
+
+  #resume-body {
+    margin-bottom: 20px;
   }
 
   @media (max-width: 600px) {
