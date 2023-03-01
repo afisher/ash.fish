@@ -1,14 +1,31 @@
-.bg-dark-purple {
-  background: hsl(272, 97%, 13%)
-    linear-gradient(to right, hsl(272, 97%, 13%), hsl(250, 87%, 29%));
+.bg-header {
+  background: hsl(186, 100%, 24%)
+    linear-gradient(to right, hsl(186, 100%, 24%), hsl(186, 98%, 39%));
+}
+
+html {
+  font-family: 'Golos Text';
+  background-color: hsl(190, 51%, 90%);
 }
 
 ul {
   padding-left: 1.25rem;
 }
 
+a {
+  color: hsl(7, 90%, 40%);
+}
+
+.headshot {
+  border-radius: 9999px;
+}
+
 .job-header {
   margin-bottom: 0;
+}
+
+.footer {
+  border-top: 1px solid hsl(189, 36%, 70%);
 }
 
 @media screen {
@@ -20,7 +37,7 @@ ul {
     margin-bottom: 20px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     #resume-body {
       display: block;
     }

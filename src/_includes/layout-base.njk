@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
   <title>{{ title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="/static/tachyons.min.css" />
   <link rel="stylesheet" href="/static/styles.css" />
-  <body
-    class="bg-near-black avenir moon-gray lh-copy flex flex-column min-vh-100"
-  >
-    <div class="bg-dark-purple bb b--white-10 bw1 screen-only">
+  <body class="lh-copy flex flex-column min-vh-100">
+    <div class="bg-header bb b--white-10 bw1 screen-only">
       <nav class="f4 mw8 pv3 ph4 center">
-        <a href="/" class="link underline-hover white mr3">About</a>
+        <span class="mr3 white">Ashley Fisher</span>
+        <a href="/" class="b link underline-hover white mr3">About</a>
         <!-- <a href="/art" class="link underline-hover white mr3">Art</a> -->
-        <a href="/resume" class="link underline-hover white">Resume</a>
+        <a href="/resume" class="b link underline-hover white">Resume</a>
       </nav>
     </div>
     <main class="center mw8 flex-auto ph4" id="main-content">
       {{ content | safe }}
     </main>
-    <footer class="pa3 tc bt b--dark-gray screen-only">
+    <footer class="pa3 tc bt screen-only footer">
       &copy; 2023 Ashley Fisher
     </footer>
   </body>
