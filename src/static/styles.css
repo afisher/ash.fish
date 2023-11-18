@@ -44,10 +44,6 @@ ul {
 }
 
 @media screen {
-  .print-only {
-    display: none;
-  }
-
   #resume-body {
     margin-bottom: 20px;
   }
