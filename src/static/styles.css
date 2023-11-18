@@ -33,6 +33,11 @@ ul {
 .headshot {
   border-radius: 9999px;
   margin: 2rem 0 1rem 1rem;
+
+  @media (max-width: 500px) {
+    width: 160px;
+    height: 160px;
+  }
 }
 
 .job-header {
@@ -44,10 +49,6 @@ ul {
 }
 
 @media screen {
-  .print-only {
-    display: none;
-  }
-
   #resume-body {
     margin-bottom: 20px;
   }
