@@ -10,21 +10,20 @@
   </head>
   <title>{{ title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/static/tachyons.min.css" />
   <link rel="stylesheet" href="/static/styles.css" />
-  <body class="lh-copy flex flex-column min-vh-100">
-    <div class="bg-header bw1 screen-only">
-      <nav class="f4 mw8 pv3 ph4 center">
-        <span class="mr3 white">Ash Fisher</span>
-        <a href="/" class="b no-underline white mr3">About</a>
-        <a href="/resume" class="b no-underline white">Resume</a>
+  <body>
+    <div class="screen-only">
+      <nav>
+        <span>Ash Fisher</span>
+        <a href="/">About</a>
+        <a href="/resume">Resume</a>
       </nav>
     </div>
-    <main class="center mw8 flex-auto ph4" id="main-content">
+    <main id="main-content">
       {{ content | safe }}
     </main>
-    <footer class="pa3 tc bt screen-only footer">
-      &copy; 2023 Ash Fisher
+    <footer class="screen-only">
+      &copy; 2025 Ash Fisher
     </footer>
   </body>
 </html>

@@ -1,8 +1,10 @@
 body {
   font-family: 'Golos Text';
-  background-color: hsl(190, 51%, 90%);
+  /* background-color: hsl(180, 3%, 8%); */
   overflow-y: scroll;
-  color: hsl(190, 80%, 15%);
+  /* color: hsl(191, 53%, 87%); */
+  max-width: 720px;
+  margin: 10px auto;
 }
 
 :focus {
@@ -10,7 +12,7 @@ body {
   outline-offset: 2px;
 }
 a {
-  color: hsl(7, 90%, 40%);
+  /* color: hsl(7, 90%, 40%); */
   text-decoration-thickness: 2px;
 }
 a:focus {
@@ -22,8 +24,14 @@ a:hover{
 }
 
 .bg-header {
-  background: hsl(186, 100%, 24%)
-    linear-gradient(to right, hsl(186, 100%, 24%) 60%, hsl(186, 98%, 39%));
+  /* background: hsl(186, 100%, 24%) */
+    /* linear-gradient(to right, hsl(186, 100%, 24%) 60%, hsl(186, 98%, 39%)); */
+}
+
+.container {
+  border: solid 2px black;
+  padding: 0 12px;
+  display: flex;
 }
 
 ul {
@@ -31,8 +39,9 @@ ul {
 }
 
 .headshot {
-  border-radius: 9999px;
-  margin: 2rem 0 1rem 1rem;
+  align-self: flex-end;
+  margin-top: -9999999px;
+  margin-left: 10px;
 
   @media (max-width: 500px) {
     width: 160px;
