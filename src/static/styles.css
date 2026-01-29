@@ -5,7 +5,7 @@ body {
   margin: 6px auto;
   font-size: 1.2rem;
   line-height: 1.75rem;
-  background-color: #f5f3ef;
+  background-color: #fcf8f4;
 }
 
 :focus {
@@ -27,8 +27,9 @@ a:hover{
 
 .mainContainer {
   border: solid 2px black;
-  padding: 0 16px;
+  padding-left: 16px;
   display: flex;
+  justify-content: space-between;
   background-color: #fff;
   color: #000;
 }
