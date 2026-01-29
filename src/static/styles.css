@@ -1,18 +1,20 @@
 body {
   font-family: 'Golos Text';
-  /* background-color: hsl(180, 3%, 8%); */
   overflow-y: scroll;
-  /* color: hsl(191, 53%, 87%); */
-  max-width: 720px;
-  margin: 10px auto;
+  max-width: 800px;
+  margin: 6px auto;
+  font-size: 1.2rem;
+  line-height: 1.75rem;
+  background-color: #f5f3ef;
 }
 
 :focus {
   outline: 2px solid currentColor;
   outline-offset: 2px;
 }
+
 a {
-  /* color: hsl(7, 90%, 40%); */
+  color: #4d4d4d;
   text-decoration-thickness: 2px;
 }
 a:focus {
@@ -23,19 +25,25 @@ a:hover{
   text-decoration-thickness: 2px;
 }
 
-.bg-header {
-  /* background: hsl(186, 100%, 24%) */
-    /* linear-gradient(to right, hsl(186, 100%, 24%) 60%, hsl(186, 98%, 39%)); */
-}
-
-.container {
+.mainContainer {
   border: solid 2px black;
-  padding: 0 12px;
+  padding: 0 16px;
   display: flex;
+  background-color: #fff;
+  color: #000;
 }
 
-ul {
-  padding-left: 1.25rem;
+.secondaryContainer {
+  display: flex;
+  gap: 16px;
+  color: #000;
+}
+
+.secondaryContainer > p {
+  border: solid 2px black;
+  padding: 16px;
+  width: fit-content;
+  background-color: #fff;
 }
 
 .headshot {
@@ -49,12 +57,17 @@ ul {
   }
 }
 
+.footer {
+  border-top: 1px solid hsl(189, 36%, 70%);
+}
+
+/** Resume styles **/
 .job-header {
   margin-bottom: 0;
 }
 
-.footer {
-  border-top: 1px solid hsl(189, 36%, 70%);
+ul {
+  padding-left: 1.25rem;
 }
 
 @media screen {
