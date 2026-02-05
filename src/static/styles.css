@@ -20,6 +20,11 @@ nav {
 
 h1 {
   font-size: 1.8em;
+  line-height: 1.2em;
+}
+
+h2 {
+  line-height: 1.2em;
 }
 
 :focus {
