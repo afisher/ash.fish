@@ -13,6 +13,11 @@ body {
   background-color: #fcf8f4;
 }
 
+nav {
+  display: flex;
+  gap: 12px;
+}
+
 h1 {
   font-size: 1.8em;
 }
@@ -45,6 +50,10 @@ a:hover{
   padding-left: 16px;
   display: flex;
   justify-content: space-between;
+}
+
+.mainContainer p {
+  padding-right: 16px;
 }
 
 .secondaryContainer {
@@ -80,7 +89,6 @@ a:hover{
 .desktopOnly.headshot {
   align-self: flex-end;
   margin-top: -9999999px;
-  margin-left: 10px;
 }
 
 .desktopOnly {
