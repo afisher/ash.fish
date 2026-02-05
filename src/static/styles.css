@@ -1,11 +1,20 @@
+:root {
+  --desktop-width: 667px;
+}
+
 body {
   font-family: 'Golos Text';
   overflow-y: scroll;
   max-width: 800px;
   margin: 6px auto;
+  padding: 16px;
   font-size: 1.2rem;
   line-height: 1.75rem;
   background-color: #fcf8f4;
+}
+
+h1 {
+  font-size: 1.8em;
 }
 
 :focus {
@@ -41,21 +50,42 @@ a:hover{
 .secondaryContainer {
   display: flex;
   gap: 16px;
+
+  @media (max-width: 667px) {
+    display: block;
+  }
 }
 
 .secondaryContainer > p {
   padding: 16px;
   width: fit-content;
+
+  @media (max-width: 667px) {
+    width: unset;
+  }
 }
 
 .headshot {
+  @media (resolution = 1dppx), (resolution = 2dppx), (resolution = 3dppx) {
+    image-rendering: pixelated;
+  }
+
+  @media (max-width: 780px) {
+    width: 200px;
+    height: 200px;
+    image-rendering: unset;
+  }
+}
+
+.desktopOnly.headshot {
   align-self: flex-end;
   margin-top: -9999999px;
   margin-left: 10px;
+}
 
-  @media (max-width: 500px) {
-    width: 160px;
-    height: 160px;
+.desktopOnly {
+  @media (max-width: 667px) {
+    display: none;
   }
 }
 
