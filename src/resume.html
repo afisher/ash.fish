@@ -3,23 +3,29 @@ title: Resume | Ash Fisher
 layout: layout-base.njk
 ---
 
-<h1>Ash Fisher</h1>
+<div class="resume-header">
+  <h1>Ash Fisher</h1>
+  <a href="/" class="card clickable screen-only">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left-icon lucide-arrow-left"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+    Home
+  </a>
+</div>
 
 <div>
   <div id="resume-body">
     A product-focused software engineer of 13+ years with a love for frontend. Pragmatic,
     good-humored, empathetic, excellent communicator, high attention to detail. 
     <div class="card">
-      <h2>Skills</h2>
+      <h2 class="job-header">Skills</h2>
       <ul>
       <li>
-        <strong>Frontend</strong>: TypeScript, React, vite, webpack, Vitest, Jest,
-        react-testing-library, Cypress, Apollo GraphQL, HTML, CSS, accessibility
-        (a11y), internationalization (i18n)
+        <strong>Frontend</strong>: TypeScript, React, HTML, CSS, accessibility
+        (a11y), Vitest, Jest, react-testing-library, Cypress,
+        Apollo GraphQL, internationalization (i18n)
       </li>
       <li>
-        <strong>Backend</strong>: API design, Python, pytest, aiohttp, Twisted 
-        web, klein, PostgreSQL, MongoDB
+        <strong>Backend</strong>: REST API design, Python, pytest, aiohttp, flask,
+        PostgreSQL, MongoDB
       </li>
       <li><strong>Misc</strong>: git, Figma</li>
       </ul>
@@ -37,25 +43,20 @@ layout: layout-base.njk
 
       <ul>
         <li>
-          Implemented the frontend for the patient-facing user experience in
-          Maven's flagship product with over 15k weekly unique users
+          Implemented features in Maven's patient-facing web app (>15k
+          weekly unique users). Developed new features, wrote unit and
+          regression tests, ensured accessibility best practices, usage of
+          feature flags, and integration with observability tools
         </li>
         <li>
-          Served as the technical lead on the Fertility Experience team during
-          the development of a net-new feature, allowing users to track menstrual
-          periods and gain insights about their cycles
+          Served as the technical lead for multiple projects including the
+          Maven Cycle Tracker, aligning the team on technical solutions,
+          sequencing and breakdown of tasks, testing, and rollout strategy
         </li>
         <li>
-          Led the technical design for various product features, including API 
-          design and web/mobile experience parity
-        </li>
-        <li>
-          Served as tech lead on a tactical project required to sign the
-          company's largest customer to date
-        </li>
-        <li>
-          Worked collaboratively with product, design, and other
-          engineers to solve problems and improve processes
+          Designed APIs in collaboration with backend engineers. Implemented
+          backend features as needed and participated in the team's backend
+          on-call rotation 
         </li>
       </ul>
     </div>
@@ -67,7 +68,7 @@ layout: layout-base.njk
       </h2>
       <div>
         Senior Frontend Software Engineer
-        <span class="job-time">Oct 2020&ndash;May 2023</span
+        <span class="job-time">(Oct 2020&ndash;May 2023)</span
       ></div>
 
       <ul>
@@ -98,17 +99,17 @@ layout: layout-base.njk
       </h2>
       <div>
         Senior Software Engineer
-        <span class="job-time">Dec 2018&ndash;Sep 2020</span>
+        <span class="job-time">(Dec 2018&ndash;Sep 2020)</span>
       </div>
       <div>
         Full Stack Developer
-        <span class="job-time">Jan 2014&ndash;Dec 2018</span>
+        <span class="job-time">(Jan 2014&ndash;Dec 2018)</span>
       </div>
 
       <ul>
         <li>
           As the second engineering hire, implemented version 1 of an
-          asynchronous healthcare SaaS product that is now used by 5 of the top
+          asynchronous healthcare SaaS product that was used by 5 of the top
           10 US health systems
         </li>
         <li>
@@ -120,17 +121,56 @@ layout: layout-base.njk
     </div>
 
     <div class="card">
+      <h2 class="job-header">
+        Possible Whale
+        <span class="job-subheader">(indie game studio)</span>
+      </h2>
+      <div>
+        Co-founder and Game Developer
+        <span class="job-time">(May 2013&ndash;Nov 2013)</span>
+      </div>
+
+      <ul>
+        <li>
+          Collaborated with a game designer to build and release an action game
+          for iOS and Android
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2 class="job-header">
+        Decipher Inc
+        <span class="job-subheader">(market research)</span>
+      </h2>
+      <div>
+        Frontend Developer
+        <span class="job-time">(Nov 2012&ndash;May 2013)</span>
+      </div>
+
+      <ul>
+        <li>
+          Contributed to the development of a business intelligence reporting tool
+        </li>
+        <li>
+          Re-wrote a legacy web app for sending email campaigns into AngularJS 
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
       <h2 class="job-header">Community Warehouse</h2>
       <div>
-        Warehouse Volunteer
-        <span class="job-time">July 2025&ndash;Present</span>
+        Furniture Bank Volunteer
+        <span class="job-time">(July 2025&ndash;Present)</span>
       </div>
       <ul>
         <li>
-          Sorted and inspected incoming donations
+          Volunteered ~9-12 hours per month at the furniture bank, helping
+          provide household items to neighbors overcoming adversity
         </li>
         <li>
-          Placed inventory and organized shelves for a pleasant client experience
+          Processed incoming donations and organized inventory for a trauma-informed client experience
         </li>
       </ul>
     </div>
@@ -140,7 +180,7 @@ layout: layout-base.njk
       <div>Cum Laude</div>
       <div>
         Willamette University, Salem, OR
-        <span class="job-time">Aug 2008&ndash;May 2012</span>
+        <span class="job-time">(Aug 2008&ndash;May 2012)</span>
       </div>
     </div>
   </div>
