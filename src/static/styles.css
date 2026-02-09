@@ -51,6 +51,24 @@ a:hover{
   box-shadow: 4px 4px #000;
 }
 
+.card.clickable {
+  transition: transform 0.5s ease;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: unset;
+  max-height: fit-content;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  transform: rotate(3deg) scale(1.08);
+}
+
+.icon {
+  font-size: 2rem;
+}
+
 .mainContainer {
   padding-left: 16px;
   display: flex;
@@ -70,8 +88,9 @@ a:hover{
   }
 }
 
-.secondaryContainer > p {
+.secondaryContainer > .card {
   padding: 16px;
+  margin: 16px 0;
   width: fit-content;
 
   @media (max-width: 667px) {
@@ -107,6 +126,18 @@ a:hover{
 }
 
 /** Resume styles **/
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-header > a {
+  padding: 16px;
+  margin: 16px 0;
+  align-self: flex-end;
+  margin-top: -16px;
+}
+
 .job-header {
   margin-bottom: 6px;
 }
