@@ -25,14 +25,9 @@ body {
   max-width: 800px;
   margin: 6px auto;
   padding: 16px;
-  font-size: 1.4rem;
-  line-height: 1.75rem;
-  background-color: #fffbf6;
-}
-
-nav {
-  display: flex;
-  gap: 12px;
+  font-size: round(1.4rem, 1px);
+  line-height: 1.5;
+  background: #b3f6f8;
 }
 
 h1 {
@@ -76,6 +71,10 @@ a:hover{
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+
+.card.clickable:focus {
+  outline-offset: -6px;
 }
 
 .clickable:hover {
@@ -124,6 +123,10 @@ a:hover{
   }
 }
 
+.secondaryContainer .card.clickable {
+  align-self: flex-start;
+}
+
 .desktopOnly.headshot {
   align-self: flex-end;
   margin-top: -9999999px;
@@ -133,10 +136,6 @@ a:hover{
   @media (max-width: 667px) {
     display: none;
   }
-}
-
-.footer {
-  border-top: 1px solid hsl(189, 36%, 70%);
 }
 
 /** Resume styles **/
@@ -193,7 +192,7 @@ li {
 
 @media print {
   .screen-only {
-    display: none;
+    display: none !important;
   }
 
   html {
@@ -206,6 +205,10 @@ li {
 
   #resume-body .card {
     padding: 0;
+  }
+
+  #resume-body {
+    gap: 0;
   }
 
   #main-content {
