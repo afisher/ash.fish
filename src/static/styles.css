@@ -1,16 +1,33 @@
-:root {
-  --desktop-width: 667px;
+@font-face {
+  font-family: "PPPangramSans";
+  src: url("fonts/PPPangramSans-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPAgrandirGrandHeavy";
+  src: url("fonts/PPAgrandir-GrandHeavy.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPAgrandir";
+  src: url("fonts/PPAgrandir-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-  font-family: 'Golos Text';
+  font-family: "PPPangramSans";
   overflow-y: scroll;
   max-width: 800px;
   margin: 6px auto;
   padding: 16px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.75rem;
-  background-color: #fcf8f4;
+  background-color: #fffbf6;
 }
 
 nav {
@@ -19,11 +36,13 @@ nav {
 }
 
 h1 {
+  font-family: "PPAgrandirGrandHeavy";
   font-size: 1.8em;
   line-height: 1.2em;
 }
 
 h2 {
+  font-family: "PPAgrandir";
   line-height: 1.2em;
 }
 
@@ -52,21 +71,16 @@ a:hover{
 }
 
 .card.clickable {
-  transition: transform 0.5s ease;
+  font-weight: bold;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 4px;
-  text-decoration: unset;
-  max-height: fit-content;
+  text-decoration: none;
 }
 
 .clickable:hover {
   cursor: pointer;
-  transform: rotate(3deg) scale(1.08);
-}
-
-.icon {
-  font-size: 2rem;
+  text-decoration: underline;
 }
 
 .mainContainer {
@@ -132,10 +146,9 @@ a:hover{
 }
 
 .resume-header > a {
-  padding: 16px;
-  margin: 16px 0;
+  padding: 8px;
+  margin-bottom: 26px;
   align-self: flex-end;
-  margin-top: -16px;
 }
 
 .job-header {
@@ -143,11 +156,13 @@ a:hover{
 }
 
 .job-subheader {
-  font-size: 0.5em;
+  font-family: "PPPangramSans";
+  font-size: 0.6em;
+  /* font-weight: 300; */
 }
 
 .job-time {
-  font-size: 0.875rem;
+  font-size: 0.75em;
   text-transform: uppercase;
 }
 
