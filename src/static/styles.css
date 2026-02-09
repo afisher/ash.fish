@@ -73,7 +73,7 @@ a:hover{
   text-decoration: none;
 }
 
-.card.clickable:focus {
+.card.clickable:focus-within {
   outline-offset: -6px;
 }
 
